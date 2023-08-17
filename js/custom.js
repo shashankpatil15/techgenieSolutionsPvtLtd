@@ -119,7 +119,7 @@ $(document).ready(function(){
 
 // ==========  START GOOGLE MAP ========== //
 function initialize() {
-    var myLatLng = new google.maps.LatLng(18.559658, 73.779938);
+    var myLatLng = new google.maps.LatLng(18.55596350347839, 73.79292897678414);
 
     var mapOptions = {
         zoom: 14,
