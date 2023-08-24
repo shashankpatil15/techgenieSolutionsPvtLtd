@@ -187,6 +187,10 @@ body > section,
 	color: #fff;
 }
 
+.navbar-nav-extra {
+  display: flex;
+}
+
 
 
 

@@ -290,3 +290,28 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   }
   
 }
+
+/*==============================================================
+  Mobile (Landscape) Design for a width of <480px
+===============================================================*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and ( -o-min-device-pixel-ratio: 2/1), only screen and ( min-device-pixel-ratio: 2), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx) {
+  .navbar-brand h1 img {
+    width: 158px;
+      margin-top: -7px;
+  }
+
+  .service-desc-right {
+    margin-right: 0px;
+    }
+
+    .card-2 a{
+      font-size: 10px;
+      color: black;
+      font-weight: 800;
+    }
+
+    .team-member:hover h4 {
+  color: #00bfff;
+}
+}
