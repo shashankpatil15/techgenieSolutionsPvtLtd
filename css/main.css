@@ -164,6 +164,17 @@ body > section,
   padding: 0;
 }
 
+.navbar-brand h1 img {
+  width: 158px;
+    margin-top: -14px;
+}
+/* @media (max-device-width:480px) {
+  .navbar-brand h1 img {
+    width: 158px;
+      margin-top: -7px;
+  }
+  }  */
+
 .navbar-nav li a {
 	border-top: 1px solid transparent;
 }
@@ -324,6 +335,12 @@ top: -8px;
   position: relative;
   top: 5px;
 }
+
+/* @media(max-device-width:480px) {
+  .service-desc-right {
+  margin-right: 0px;
+  }
+} */
 
 .service-desc h3 {
   color: #062033;
@@ -804,53 +821,36 @@ background-image: url(https://ionicframework.com/img/getting-started/ionic-nativ
 .second-mobile{
   padding-bottom: 20px;
 }
-@media(max-width: 990px){
+/* @media(max-width: 990px){
 .card{
   margin: 20px;
 }
-} 
+}  */
 
-/* * {
-  transition: all 0.3s ease-out;
+.choose-text {
+  text-align: justify;
+  display: flex;
+  margin: 0 auto 30px;
+  /* width: 325px; */
 }
-.card2 {
-  display: block;
-  top: 0px;
+
+.service-desc-choose {
   position: relative;
-  background-color: #00bfff;
-  border-radius: 30px;
-  padding: 32px 24px;
-  margin: 12px;
-  text-decoration: none;
-  z-index: 0;
-  overflow: hidden;
-  border: 1px solid #f2f8f9;
-  height: 250px;
+  top: 10px;
+}
 
-  &:hover {
-    transition: all 0.2s ease-out;
-    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-    top: -4px;
-    border: 1px solid #cccccc;
-    background-color: white;
-  }
+.service-desc-choose p {
+  margin-left: 0px;
+  text-align: justify;
+}
 
-  &:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -16px;
-    right: -16px;
-    background: #00838d;
-    height: 32px;
-    width: 32px;
-    border-radius: 32px;
-    transform: scale(2);
-    transform-origin: 50% 50%;
-    transition: transform 0.15s ease-out;
-  }
+.service-desc-choose h3 {
+  color: #062033;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
 
-  &:hover:before {
-    transform: scale(2.15);
-  }
-} */
+.service-desc-choose:hover h3 {
+  color: #00bfff;
+}

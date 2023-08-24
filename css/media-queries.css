@@ -114,6 +114,10 @@ background-position: center top !important;
 .team-member{
   margin-bottom: 20px;
 }	
+
+.card{
+  margin: 20px;
+}
 	
 }
 
@@ -221,6 +225,14 @@ background-position: center top !important;
   margin-bottom: 30px;
 }
 
+.card:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card{
+  margin: 20px;
+}
+
 }
 
 
@@ -259,4 +271,22 @@ background-position: center top !important;
   width: 50%;
 }
 
+.card:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card{
+  margin: 20px;
+}
+
+.navbar-brand h1 img {
+  width: 158px;
+    margin-top: -7px;
+}
+
+.service-desc-right {
+  margin-right: 0px;
+  }
+  
 }
