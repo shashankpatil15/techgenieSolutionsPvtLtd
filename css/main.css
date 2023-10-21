@@ -145,7 +145,8 @@ body > section,
 ==========================================*/
 
 #navigation {
-  background-color: rgba(16, 22, 54, 0.2);
+  /* background-color: rgba(16, 22, 54, 0.2); */
+  background-color: #00bfff;
   border: 0 none;
   margin: 0;
   
@@ -189,6 +190,7 @@ body > section,
 
 .navbar-nav-extra {
   display: flex;
+  margin-top: revert;
 }
 
 
@@ -765,6 +767,7 @@ label.error {
   width: 100%;
   border: 5px solid skyblue;
   border-radius: 30px;
+  height: 380px;
 }
 
 .card{
