@@ -861,3 +861,6 @@ background-image: url(https://ionicframework.com/img/getting-started/ionic-nativ
 .service-desc-choose:hover h3 {
   color: #00bfff;
 }
+.comming-soon {
+  width: 100%;
+}
